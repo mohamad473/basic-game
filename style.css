@@ -1,0 +1,96 @@
+body {
+  background: rgba(0, 0, 0, 0.929);
+  color: white;
+}
+
+.container {
+  width: 90vw;
+  margin-inline: auto;
+}
+
+/* Start Header  */
+header {
+  font-family: "Press Start 2P", cursive;
+}
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+header .line {
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+}
+
+header .box {
+  display: block;
+  padding: 30px;
+  width: 100px;
+  text-align: center;
+  background: white;
+  color: rgba(0, 0, 0, 0.929);
+  font-size: 40px;
+  position: relative;
+  top: -45px;
+  left: calc(50% - 90px);
+}
+/* End Header  */
+
+/* Start Main  */
+
+main {
+  font-family: "Play", sans-serif;
+}
+
+main .sides {
+  width: 800px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main .sides .side-one input {
+  width: 150px;
+  display: block;
+  padding: 25px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  background: rgba(0, 0, 0, 0.929);
+  color: white;
+  border: 5px solid white;
+  outline: none;
+}
+
+main .sides .side-one .check {
+  padding: 17px 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+main .sides .side-two {
+  margin-left: 150px;
+  font-size: 30px;
+}
+
+main .sides .side-two p:first-child {
+  margin: 0;
+  margin-bottom: 80px;
+}
+/* End Main  */

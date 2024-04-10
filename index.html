@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>change Image</title>
+  <!-- Google Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- StyleSheet  -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="top-header">
+        <button class="btn replay">Again</button>
+        <p>&lt;Between 1 and 20&gt;</p>
+      </div>
+      <h1>Guess My Number!</h1>
+      <span class="line"></span>
+      <span class="box">?</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="sides">
+        <div class="side-one">
+          <input type="number" class="guess">
+          <button class="btn check">Check</button>
+        </div>
+        <div class="side-two">
+          <p class="result">Start Guessing... </p>
+          <p>Score: <span class="score">20</span></p>
+          <p>HighScore: <span class="high-score">0</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
